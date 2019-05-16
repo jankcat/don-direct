@@ -20,6 +20,8 @@ app.post('/', async (req, res) => {
     const newQuote = {
       quote: req.body.quote,
     };
+    if (req.body.url) newQuote.url = req.body.url;
+    if (req.body.context) newQuote.context = req.body.context;
     await db.collection('quotes').add(newQuote);
     res.send(`Inserted quote: ${newQuote.quote}`);
   } catch (e) {
