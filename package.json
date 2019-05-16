@@ -1,0 +1,19 @@
+{
+  "name": "don-direct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankcat/don-direct.git"
+  },
+  "author": "Tim Watkins & Brad Abel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jankcat/don-direct/issues"
+  },
+  "homepage": "https://github.com/jankcat/don-direct#readme"
+}
